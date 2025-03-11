@@ -32,7 +32,7 @@ jobs:
      - name: ''
        run: |
         echo "Hello ${{ github.event.inputs.name }}"
-        echo "Your favourite country is: ${{ github.event.inputs.name }}"
-        echo "Is your favourite color is blue: ${{ github.event.inputs.color}}"
+        echo "Your favourite country is: ${{ github.event.inputs.country }}"
+        echo "Is your favourite color is blue: ${{ github.event.inputs.fav-color-blue }}"
 
 
